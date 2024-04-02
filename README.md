@@ -1,0 +1,1 @@
+# Lenovo-Yoga-Slim-7-13ITL5-Hackintosh
