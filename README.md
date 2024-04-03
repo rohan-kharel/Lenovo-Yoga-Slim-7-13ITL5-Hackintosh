@@ -24,12 +24,21 @@ OpenCore EFI for the Lenovo Yoga Slim 7 13ITL5
 **Not working/Untested**
 - Microphone
 - SSD
->**Note on SSD**
+>**Note on SSD:**
 >MacOS *must* be installed to either a supported NVMe drive (untested) or to external storage as the NVMe drive in this laptop does not work with macOS. If you wish to enable it anyway, simply open config.plist and remove nvme=-1 from boot-args.
 - Graphics acceleration
-> **Note on Graphics**
+> **Note on Graphics:**
 > Because the display is running in VESA mode and not utilizing  Iris Xe Graphics, macOS will take a while to boot and it will feel sluggish. As there is and never will be support for this iGPU, there is nothing I can do about it.
 
 **Installation**
 -
 Use [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create installation media and place the provided EFI folder on the  root of your drive. For iCloud Services, use the same guide to [patch your SMBIOS.](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+
+**Tested on:**
+-
+- macOS Ventura 13
+
+**Screenshots**
+-
+
+![Screenshot 2024-04-03 at 11 20 26](https://github.com/rohan-kharel/Lenovo-Yoga-Slim-7-13ITL5-Hackintosh/assets/111512418/ea5ed883-ea2f-4bf8-9c66-3138f41265c2)
