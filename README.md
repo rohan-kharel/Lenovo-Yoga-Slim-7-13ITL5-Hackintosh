@@ -25,7 +25,7 @@ OpenCore EFI for the Lenovo Yoga Slim 7 13ITL5
 - Microphone
 - SSD
 >**Note on SSD**
->MacOS *must* be installed to either a SATA drive (untested) or install to external storage as the NVMe in this laptop does not work with macOS. If you wish to enable it anyway, simply open config.plist and remove nvme=-1 from boot-args.
+>MacOS *must* be installed to either a supported NVMe drive (untested) or to external storage as the NVMe drive in this laptop does not work with macOS. If you wish to enable it anyway, simply open config.plist and remove nvme=-1 from boot-args.
 - Graphics acceleration
 > **Note on Graphics**
 > Because the display is running in VESA mode and not utilizing  Iris Xe Graphics, macOS will take a while to boot and it will feel sluggish. As there is and never will be support for this iGPU, there is nothing I can do about it.
