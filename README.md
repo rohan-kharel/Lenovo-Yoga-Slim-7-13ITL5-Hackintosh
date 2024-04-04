@@ -37,6 +37,7 @@ Use [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Inst
 **Tested on:**
 -
 - macOS Ventura 13
+- macOS Sonoma 14
 
 **Screenshots**
 -
